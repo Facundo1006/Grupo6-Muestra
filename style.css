@@ -1,13 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
-    color: #333;
+    color: #000000;
+    font-size: 30px;
 }
 
 header {
-    background-color: #c06e2b;
+    background-color: #fa7b04;
     color: white;
     padding: 20px;
     text-align: center;
@@ -29,11 +30,21 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url('https://via.placeholder.com/1200x400?text=Hamburguesa+Deliciosa');
+    background-image: url('https://wallpapers.com/images/hd/plain-yellow-and-orange-gradient-desktop-lkhdbbzs3u0r2i97.jpg');
     background-size: cover;
     padding: 60px 20px;
     animation: fadeIn 2s;
     text-align: center;
+    font-size: 40px;
+}
+
+.hero2 {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/121/440/non_2x/abstract-gradient-blue-background-vector.jpg');
+    background-size: cover;
+    padding: 60px 20px;
+    animation: fadeIn 2s;
+    text-align: center;
+    font-size: 40px;
 }
 
 .burger-container {
@@ -58,7 +69,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: hsla(22, 82%, 56%, 0.781);
+    background-color: hsla(246, 100%, 50%, 0.781);
     color: white;
     text-align: center;
     padding: 10px;
@@ -82,4 +93,11 @@ footer {
 .centrado {
     width: 60%;
     margin-left: 15%;
+}
+
+.header2 {
+    background-color: #0b31da;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
