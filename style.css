@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #c0392b;
+    background-color: #c06e2b;
     color: white;
     padding: 20px;
     text-align: center;
@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 .burger {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333;
+    background-color: hsla(22, 82%, 56%, 0.781);
     color: white;
     text-align: center;
     padding: 10px;
@@ -74,4 +74,12 @@ footer {
     to {
         opacity: 1;
     }
+}
+
+.texto {
+    font-size: 1.5rem;
+}
+.centrado {
+    width: 60%;
+    margin-left: 15%;
 }
